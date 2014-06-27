@@ -1,6 +1,7 @@
 var ready;
 ready = function() {
 $(document).ready(function(){
+$(".navbar").hide();
 
 
 var welcome = ['W','e','l','c','o','m','e'];
@@ -12,8 +13,8 @@ function Welcome(index){
 window.setInterval(function(){
   Welcome(index)
   index += 1
-  if (index === 6){
-    return;
+  if (index >= 7){
+    $(".navbar").show("fold");
   }
 }, 800);
 

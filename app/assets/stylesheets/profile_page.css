@@ -1,14 +1,21 @@
 #profile_pic{
   border-radius: 150px;
-  margin-top: 10%;
-  margin-left: 40%;
+  margin-top: 6%;
+  display:block ;
+  margin-left:auto ;
+  margin-right:auto ;
 }
 
 .welcome{
   margin-top: 2%;
-  margin-left: 43%;
+  /*margin-left: 43%;*/
+  text-align: center;
+  width: 100%;
   letter-spacing: 4px;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
 }
 
+.navbar {
+  display: visible;
+}
