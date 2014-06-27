@@ -18,7 +18,7 @@ window.setInterval(function(){
   Welcome(index)
   index += 1
   if (index === 6){
-    sleep();
+    return;
   }
 }, 800);
 
