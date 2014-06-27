@@ -11,15 +11,14 @@ function Welcome(index){
 }
 
 window.setInterval(function(){
-  Welcome(index)
-  index += 1
-  if (index >= 7){
-    $(".navbar").show("fold");
-  }
-}, 800);
+    Welcome(index)
+    index += 1
+    if (index >= 7){
+      $(".navbar").show("fold");
+    }
+  }, 800);
 
-});
+  });
 };
 
 $(document).ready(ready);
-$(document).on('page:load', ready);
