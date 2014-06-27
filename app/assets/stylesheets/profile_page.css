@@ -1,0 +1,15 @@
+#profile_pic{
+  border-radius: 150px;
+  margin-top: 150px;
+}
+.welcome_space{
+  margin-top: 50px;
+  margin-right: 60px;
+}
+.welcome{
+  margin-top: 50px;
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
