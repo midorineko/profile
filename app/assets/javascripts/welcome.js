@@ -2,6 +2,7 @@ var ready;
 ready = function() {
 $(document).ready(function(){
 $(".navbar").hide();
+$("#profile_pic").hide();
 
 
 var welcome = ['W','e','l','c','o','m','e'];
@@ -12,10 +13,14 @@ function Welcome(index){
 
 window.setInterval(function(){
     Welcome(index)
+    if (index >= 0){
+      $("#profile_pic").show("slide");
+    }
     index += 1
     if (index >= 7){
       $(".navbar").show("fold");
     }
+    // return();
   }, 800);
 
   });
