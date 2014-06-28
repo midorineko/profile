@@ -11,15 +11,31 @@ function Welcome(index){
   $('.welcome').append(welcome[index]);
 }
 
+var fullHeight = 0;
+function heightCalculator(){
+   fullHeight = 0;
+  $('.welcome').height(function(index, height) {
+          fullHeight += (window.innerHeight - $(this).offset().top);
+   });
+}
+
 window.setInterval(function(){
     Welcome(index)
-    if (index >= 0){
+    if (index === 0){
       $("#profile_pic").show("slide");
     }
+    if (index === 1){
+        heightCalculator();
+      $( ".welcome" ).animate({height:fullHeight + "px"},700);
+    }
     index += 1
-    if (index >= 7){
+    if (index === 7){
       $(".navbar").show("fold");
-    // return();
+    }
+    if (index === 8 ){
+      heightCalculator();
+      $( ".welcome" ).animate({height:fullHeight + "px"},700);
+
     }
   }, 700);
 
