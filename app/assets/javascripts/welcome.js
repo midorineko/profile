@@ -30,11 +30,12 @@ window.setInterval(function(){
     }
     index += 1
     if (index === 7){
-      $(".navbar").show("fold");
+      $(".navbar").show("fold", function() {
+         heightCalculator();
+          $( ".welcome" ).animate({height:fullHeight + "px"},10);
+      })
     }
     if (index === 8 ){
-      heightCalculator();
-      $( ".welcome" ).animate({height:fullHeight + "px"},700);
 
     }
   }, 700);
