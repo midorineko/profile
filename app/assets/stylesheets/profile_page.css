@@ -6,6 +6,7 @@ body {
     background-image: -o-linear-gradient(top, #333333, #222222);
     background-image: linear-gradient(top, #333333, #222222);
     background-repeat: repeat-x;
+    overflow:hidden;
 }
 
 #profile_pic{
