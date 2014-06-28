@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20140628070844) do
 
   create_table "visitors", force: true do |t|
     t.string   "email"
+    t.string   "position"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
