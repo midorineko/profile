@@ -27,3 +27,13 @@ body {
   color: lightgray;
 }
 
+#mybio{
+  display: none;
+  margin-left: 9%;
+  margin-top: 10%;
+  width: 50%;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+}
+
