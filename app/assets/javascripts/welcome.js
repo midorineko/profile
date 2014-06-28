@@ -19,9 +19,9 @@ window.setInterval(function(){
     index += 1
     if (index >= 7){
       $(".navbar").show("fold");
-    }
     // return();
-  }, 800);
+    }
+  }, 700);
 
   });
 };
