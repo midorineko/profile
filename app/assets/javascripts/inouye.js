@@ -10,6 +10,9 @@ function heightCalculator(){
 
   $('#about_inouye').click(function(e){
     e.preventDefault();
+    $("#resume").hide();
+    $("body").css("overflow", "hidden");
+    $("#profile_pic").show();
     $("#profile_pic").css("margin-right", "9%");
     $("#profile_pic").css("margin-left", "0");
     $("#profile_pic").css("float", "right");
