@@ -1,5 +1,5 @@
 body {
-  background-image: -moz-linear-gradient(top, #333333, #222222);
+    background-image: -moz-linear-gradient(top, #333333, #222222);
     background-image: -ms-linear-gradient(top, #333333, #222222);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
     background-image: -webkit-linear-gradient(top, #333333, #222222);
@@ -32,6 +32,17 @@ body {
   margin-left: 9%;
   margin-top: 10%;
   width: 50%;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+}
+
+#resume{
+  display: none;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  width: 90%;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   color: lightgray;
