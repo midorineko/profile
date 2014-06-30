@@ -11,6 +11,8 @@ function heightCalculator(){
   $('#about_inouye').click(function(e){
     e.preventDefault();
     $("#resume").hide();
+    $('#biology_html').hide();
+    $('#tech_html').hide();
     $("body").css("overflow", "hidden");
     $("#profile_pic").show();
     $("#profile_pic").css("margin-right", "9%");

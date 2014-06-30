@@ -1,0 +1,13 @@
+#resume{
+  display: none;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3%;
+  width: 90%;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+}
+
+.resume_list{
+  font-size: 16px;
+}

@@ -1,12 +1,13 @@
 $(document).ready(function() {
-$('#resume_menu').click('click', function(){
+$('#tech_page').click('click', function(e){
+  e.preventDefault();
   $('.welcome').hide();
   $('#profile_pic').hide();
   $('#mybio').hide();
+  $('#resume').hide();
   $('#biology_html').hide();
-  $('#tech_html').hide();
-  $('#resume').show('slide');
-  $('body').height('1500px')
+  $('#tech_html').show('slide');
+  $('body').height('1300px')
   $("body").css("overflow", "visible");
   });
 
