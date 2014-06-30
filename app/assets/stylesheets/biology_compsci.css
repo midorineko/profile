@@ -1,8 +1,6 @@
 #biology_html{
   display: none;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 3%;
+  margin:3% 2% 6% 2%;
   width: 90%;
   font-family: 'Raleway', sans-serif;
   color: lightgray;
@@ -15,9 +13,7 @@
 
 #tech_html{
   display: none;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 3%;
+  margin:3% 2% 6% 2%;
   width: 90%;
   font-family: 'Raleway', sans-serif;
   color: lightgrey;
