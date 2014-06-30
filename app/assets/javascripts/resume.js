@@ -6,6 +6,7 @@ $('#resume_menu').click('click', function(){
   $('#biology_html').hide();
   $('#tech_html').hide();
   $('#resume').show('slide');
+  $('body').height('100%')
   $("body").css("overflow", "visible");
   });
 
