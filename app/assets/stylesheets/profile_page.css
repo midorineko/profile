@@ -10,6 +10,7 @@ body {
 }
 
 #profile_pic{
+  border: 3px lightblue solid;
   border-radius: 150px;
   margin-top: 6%;
   display:block ;
