@@ -11,7 +11,8 @@
 }
 
 .prowork{
-  color: lightblue;
+  border-bottom: 1px lightblue solid;
+  text-align: center;
 }
 
 .welcome{
@@ -19,5 +20,9 @@
 }
 
 h2{
+  color: lightblue;
+}
+
+h3{
   color: lightblue;
 }
