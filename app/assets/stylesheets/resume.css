@@ -9,3 +9,15 @@
 .resume_list{
   font-size: 16px;
 }
+
+.prowork{
+  color: lightblue;
+}
+
+.welcome{
+  color: lightblue;
+}
+
+.navbar-nav>li>a:hover{
+  color: lightblue;
+}
